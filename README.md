@@ -41,5 +41,5 @@ REST based APIs are automatically generated, but furthermore, corresponding Mode
 
 
 
+![alt text](https://github.com/jasoncbautista/flojo/raw/master/docs/images/01_entity_form_with_data.png "Sample Entity Form with Data")
 
-(https://github.com/jasoncbautista/flojo/blob/master/docs/images/02_entity_form_with_data.png)
