@@ -13,7 +13,7 @@ To remove friction in prototyping web apps.
 
 ## Premise
 
-  A lot of code in a webapp doesn't really eer need to be written, it's all boilerplate, wasting precious cycles. Let's get computers to do our work for us.
+  A lot of code in a webapp doesn't really ever need to be written, it's all boilerplate, a waste of  precious cycles. Let's get computers to do our work for us.
 
 ## How does it work?
 
