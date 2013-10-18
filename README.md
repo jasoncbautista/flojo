@@ -84,6 +84,8 @@ that was just generated.
 ``` javascript
 // Simple ways of creating various entities:
 var post = new MyApp.Post();
+post.setTitle("Sample Blog Post");
+
 var comment = post.createComment({body: "testing this thing"});
 
 // Another way of creating a comment 
