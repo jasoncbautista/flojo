@@ -45,7 +45,7 @@ Creating an entity can be done via the Flojo rest API or through a simple form l
 
 ##### Example 
 
-An example of  a filled out entity demonstrates how we could create the concept of a commeont. As we can see the comment can have multiple properties. Most importantly it can have relationships to other entities. In this example we have a field called "body" which is just a string, and a child relationship to another entity named "post"
+An example of  a filled out entity demonstrates how we could create the concept of a comment. As we can see the comment can have multiple properties. Most importantly it can have relationships to other entities. In this example we have a field called "body" which is just a string, and a child relationship to another entity named "post"
 
 ![alt text](https://github.com/jasoncbautista/flojo/raw/master/docs/images/02_entity_form_with_data.png "Sample Entity Form with Data")
 
