@@ -34,7 +34,7 @@ which takes care of all that for you:
 ### Problem
 
 Writing backend code for models, setting up correspodning databases and
-then writtigin corresponding front-end code is tedious.
+then writting corresponding front-end code is tedious.
  
  
 ### Solution
@@ -49,7 +49,7 @@ to support the core of their app.
 
 
 REST based APIs are automatically generated, but furthermore,
-corresponding Model code is written and generated, making it easy for
+corresponding model code is written and generated, making it easy for
 users to quickly write complex prototypes with real backends.
 
 ### Sample Interface
@@ -82,10 +82,23 @@ Here is an example of how you can play around with the frontend code
 that was just generated.
 
 ``` javascript
+// Simple ways of creating various entities:
 var post = new MyApp.Post();
 var comment = post.createComment({body: "testing this thing"});
 
+// Another way of creating a comment 
+var anotherComment = new MyApp.Comment({
+                            post: post
+                          , body: "another comment..."
+                        });
 
 
+// Now a simple way of getting all our comments that belong to a single post
+var comments = post.getAllComments();
 
+_.each(comments, function(comment) {
+  console.log("Comment Body", comment.getBody());
+});
+
+````
 
