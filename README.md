@@ -37,8 +37,8 @@ REST based APIs are automatically generated, but furthermore, corresponding Mode
 
 #### Creating an Entity
 
+![alt text](https://github.com/jasoncbautista/flojo/blob/master/docs/images/01_entity_form.png "Sample Entity Form")
 
-(https://github.com/jasoncbautista/flojo/blob/master/docs/images/01_entity_form.png)
 
 
 
