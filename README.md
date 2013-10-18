@@ -17,6 +17,17 @@ A lot of code in a webapp doesn't really ever need to be written, it's
 all boilerplate, a waste of precious cycles. Let's get computers to do
 our work for us.
 
+
+## Holy Grail
+
+You shouldn't even need a server to host your backend. No setup of this and that. You just drop in a javascript script tag 
+like:
+
+``` HTML
+  <script src="://flojo.com/apps/myapp/main.js" type="text/javascript">
+
+````
+
 ## How does it work?
 
 
