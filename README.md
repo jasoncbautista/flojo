@@ -64,4 +64,17 @@ string, and a child relationship to another entity named "post"
 
 
 
+### Generated Code
+
+Once you create an entity, Flojo will generate a corresponding model.
+Here is an example of how you can play around with the frontend code 
+that was just generated.
+
+``` javascript
+var post = new MyApp.Post();
+var comment = post.createComment({body: "testing this thing"});
+
+
+
+
 
