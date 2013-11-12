@@ -109,7 +109,9 @@ a post and two comments.
 
 ### REST API
 
-To hit the API internallyt oreatea  module:
+Here we learn how To hit the Flojo API directly.
+
+Creating a module:
 
 ```
   ://flogo.com/API/V1/entities/create?name=SomeName
