@@ -1,11 +1,8 @@
+var express = require('express');
+var app = express();
 
-var port = 3091;
+app.get('/', function(req, res){
+  res.send('Hello World');
+});
 
-var connect = require('connect');
-connect.createServer(
-        connect.static(__dirname)
-).listen(port, '0.0.0.0');
-
-
-console.log(port);
-
+app.listen(3091);
